@@ -33,3 +33,15 @@ function playSix() {
     const audio = document.getElementById("6");
     audio.play();
 } 
+
+// const fileList = [
+//     "./audio/one.mp3",
+//     "./audio/two.mp3",
+//     "./audio/three.mp3",
+//     "./audio/four.mp3",
+//     "./audio/five.mp3",
+// ]
+
+// const buildButtons = () => {
+
+// }

@@ -18,6 +18,8 @@
 
 .btn {
     background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
     width: 100px;
     height: 100px;
     margin: 10px

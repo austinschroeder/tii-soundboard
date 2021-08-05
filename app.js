@@ -41,6 +41,9 @@ const fileList = {
     four: "./audio/four.mp3",
     five: "./audio/five.mp3",
     six: "./audio/six.mp3",
+    seven: "",
+    eight: "",
+    nine: "",
 }
 
 const playAudio = (fileName) => {

@@ -18,7 +18,7 @@
 //     const audio = document.getElementById("3");
 //     audio.play();
 // }
-  
+
 // function playFour() {
 //     const audio = document.getElementById("4");
 //     audio.play();
@@ -48,7 +48,6 @@ const fileList = {
 
 const playAudio = (fileName) => {
     new Audio(fileName).play()
-    
 }
 
 const buildButtons = () => {
@@ -59,7 +58,7 @@ const buildButtons = () => {
         button.onclick = () => playAudio(fileName);
         button.innerText = soundName;
         document.getElementById('btn-container').appendChild(button)
-    }) 
+    })
 }
 
 window.onload = buildButtons;

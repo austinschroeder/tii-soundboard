@@ -35,8 +35,8 @@
 // }
 
 const fileList = {
-  one: './audio/one.mp3',
-  two: './audio/two.mp3',
+  disapointed: './audio/tii_samples/disappointed.mp3',
+  disturbed: './audio/tii_samples/disturbed.mp3',
   three: './audio/three.mp3',
   four: './audio/four.mp3',
   five: './audio/five.mp3',
@@ -65,6 +65,29 @@ const fileList = {
   twentyeight: '',
   twentynine: '',
   thirty: '',
+  thirtyone: '',
+  thirtytwo: '',
+  thirtythree: '',
+  thiryfour: '',
+  thirtyfive: '',
+  thirtysix: '',
+  thirtyseven: '',
+  thirtyeight: '',
+  thirtynine: '',
+  fourty: '',
+  fourtyone: '',
+  fourtytwo: '',
+  fourtythree: '',
+  fourtyfour: '',
+  fourtyfive: '',
+  fourtysix: '',
+  fourtyseven: '',
+  fourtyeight: '',
+  fourtynine: '',
+  fifty: '',
+  fiftyone: '',
+  fiftytwo: '',
+  fiftythree: '',
 };
 
 const playAudio = (fileName) => {

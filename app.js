@@ -1,4 +1,3 @@
-
 // const buttonOne = document.getElementById('1')
 // console.log(buttonOne.id)
 // const soundOne = new Audio('./audio.one.mp3')
@@ -23,7 +22,7 @@
 // function playFour() {
 //     const audio = document.getElementById("4");
 //     audio.play();
-// }  
+// }
 
 // function playFive() {
 //     const audio = document.getElementById("5");
@@ -33,33 +32,54 @@
 // function playSix() {
 //     const audio = document.getElementById("6");
 //     audio.play();
-// } 
+// }
 
 const fileList = {
-    one: "./audio/one.mp3",
-    two: "./audio/two.mp3",
-    three: "./audio/three.mp3",
-    four: "./audio/four.mp3",
-    five: "./audio/five.mp3",
-    six: "./audio/six.mp3",
-    seven: "",
-    eight: "",
-    nine: "",
-}
+  one: './audio/one.mp3',
+  two: './audio/two.mp3',
+  three: './audio/three.mp3',
+  four: './audio/four.mp3',
+  five: './audio/five.mp3',
+  six: './audio/six.mp3',
+  seven: '',
+  eight: '',
+  nine: '',
+  ten: '',
+  eleven: '',
+  twelve: '',
+  thirteen: '',
+  fourteen: '',
+  fifteen: '',
+  sixteen: '',
+  seventeen: '',
+  eighteen: '',
+  nineteen: '',
+  twenty: '',
+  twentyone: '',
+  twentytwo: '',
+  twentythree: '',
+  twentyfour: '',
+  twentyfive: '',
+  twentysix: '',
+  twentyseven: '',
+  twentyeight: '',
+  twentynine: '',
+  thirty: '',
+};
 
 const playAudio = (fileName) => {
-    new Audio(fileName).play()
-}
+  new Audio(fileName).play();
+};
 
 const buildButtons = () => {
-    Object.keys(fileList).forEach((soundName, index) => {
-        const fileName = fileList[soundName];
-        const button = document.createElement('button');
-        button.classList.add('btn');
-        button.onclick = () => playAudio(fileName);
-        button.innerText = soundName;
-        document.getElementById('btn-container').appendChild(button)
-    })
-}
+  Object.keys(fileList).forEach((soundName, index) => {
+    const fileName = fileList[soundName];
+    const button = document.createElement('button');
+    button.classList.add('btn');
+    button.onclick = () => playAudio(fileName);
+    button.innerText = soundName;
+    document.getElementById('btn-container').appendChild(button);
+  });
+};
 
 window.onload = buildButtons;

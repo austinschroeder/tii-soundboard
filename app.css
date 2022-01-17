@@ -1,26 +1,26 @@
 .outter-box-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .outter-box {
-    background-color: blanchedalmond;
-    height: 500px;
-    width: 500px;
+  background-color: blanchedalmond;
+  height: 1000px;
+  width: 1000px;
 }
 
 #btn-container {
-    display: flex;
-    justify-content: center;
-    /* align-content: space-between; */
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  /* align-content: space-between; */
+  flex-wrap: wrap;
 }
 
 .btn {
-    background-color: blueviolet;
-    color: white;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
-    margin: 10px
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }

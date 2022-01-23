@@ -1,8 +1,8 @@
 export const fileList = {
   disapointed: './audio/tii_samples/disappointed.mp3',
   disturbed: './audio/tii_samples/disturbed.mp3',
-  three: './audio/tii_samples/disturbed.mp3',
-  four: './audio/tii_samples/disturbed.mp3',
+  do_do: './audio/tii_samples/do-do.mp3',
+  eugheuhghghgh: './audio/tii_samples/eugheuhghghgh.mp3',
   five: './audio/tii_samples/disturbed.mp3',
   six: './audio/tii_samples/disturbed.mp3',
   seven: '',

@@ -1,10 +1,10 @@
-const fileList = {
-  one: './audio/one.mp3',
-  two: './audio/two.mp3',
-  three: './audio/three.mp3',
-  four: './audio/four.mp3',
-  five: './audio/five.mp3',
-  six: './audio/six.mp3',
+export const fileList = {
+  disapointed: './audio/tii_samples/disappointed.mp3',
+  disturbed: './audio/tii_samples/disturbed.mp3',
+  three: './audio/tii_samples/disturbed.mp3',
+  four: './audio/tii_samples/disturbed.mp3',
+  five: './audio/tii_samples/disturbed.mp3',
+  six: './audio/tii_samples/disturbed.mp3',
   seven: '',
   eight: '',
   nine: '',
@@ -53,5 +53,3 @@ const fileList = {
   fiftytwo: '',
   fiftythree: '',
 };
-
-// export default;
